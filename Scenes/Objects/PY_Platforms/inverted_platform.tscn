@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1rfftc4kve55"]
+
+[ext_resource type="Texture2D" uid="uid://d03c8vdmpwcuj" path="res://Assets/Platform.png" id="1_568wi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_21xkr"]
+size = Vector2(225, 82)
+
+[node name="InvertedPlatform" type="StaticBody2D" groups=["InvertedPlatform"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.634711, 0.495247, 1, 1)
+texture = ExtResource("1_568wi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 2)
+shape = SubResource("RectangleShape2D_21xkr")
+one_way_collision = true

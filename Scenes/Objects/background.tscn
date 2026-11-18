@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ihxdot7u6fpx"]
+
+[ext_resource type="Texture2D" uid="uid://qhmo7a60hw70" path="res://Assets/CrumbledPaper.png" id="1_08gsj"]
+
+[node name="Background" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(0, 1300)
+
+[node name="CrumbledPaper" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(0, 200)
+scale = Vector2(1, 1.28)
+texture = ExtResource("1_08gsj")

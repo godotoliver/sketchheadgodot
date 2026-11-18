@@ -1,0 +1,68 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpmsm2yw0ij0x"]
+
+[ext_resource type="FontFile" uid="uid://85080ex8fpok" path="res://Assets/Lefthandkids_demo.ttf" id="1_0ag7p"]
+[ext_resource type="Script" uid="uid://diaqfiudx2o4w" path="res://Scripts/score.gd" id="2_bplsa"]
+
+[node name="UserInterface" type="CanvasLayer"]
+layer = 2
+
+[node name="ScoreControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Score" type="Label" parent="ScoreControl"]
+layout_mode = 0
+offset_right = 113.0
+offset_bottom = 62.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_0ag7p")
+theme_override_font_sizes/font_size = 27
+text = "Score"
+script = ExtResource("2_bplsa")
+theme_override_fonts/font = ExtResource("1_0ag7p")
+
+[node name="GameControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="GameControl"]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.494118)
+
+[node name="GameOver" type="Label" parent="GameControl"]
+layout_mode = 0
+offset_top = 96.0
+offset_right = 1152.0
+offset_bottom = 423.0
+theme_override_fonts/font = ExtResource("1_0ag7p")
+theme_override_font_sizes/font_size = 100
+text = "GAME OVER"
+horizontal_alignment = 1
+
+[node name="Score" type="Label" parent="GameControl"]
+layout_mode = 0
+offset_top = 406.0
+offset_right = 1152.0
+offset_bottom = 537.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_0ag7p")
+theme_override_font_sizes/font_size = 100
+text = "Score"
+horizontal_alignment = 1
+script = ExtResource("2_bplsa")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_0ag7p")
+theme_override_font_sizes/font_size = 100
+
+[node name="Button" type="Button" parent="GameControl"]
+offset_right = 209.0
+offset_bottom = 65.0
+theme_override_fonts/font = ExtResource("1_0ag7p")
+theme_override_font_sizes/font_size = 40
+text = "Play Again?"

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://e7a10uo2hbpj"]
+
+[ext_resource type="Texture2D" uid="uid://d03c8vdmpwcuj" path="res://Assets/Platform.png" id="1_cs0yf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nahnh"]
+size = Vector2(223.5, 63)
+
+[node name="DissapearingPlatform" type="StaticBody2D" groups=["DisappearingPlatform"]]
+modulate = Color(1, 0.145098, 0.227451, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_cs0yf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.25, 2.5)
+shape = SubResource("RectangleShape2D_nahnh")
+one_way_collision = true
