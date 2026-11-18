@@ -8,7 +8,7 @@ Here's a project list:
 
 # Bronze Belt
 
-      • Dropping Bombs (not included, it has multiple parts)
+      ❌ Dropping Bombs (not included, it has multiple parts)
   
       • Scavenger Hunt
   
@@ -22,13 +22,13 @@ Here's a project list:
   
       • Poly Run
   
-      • Dropping Bombs 2 (not included, it has multiple parts)
+      ❌ Dropping Bombs 2 (not included, it has multiple parts)
   
-      • Dropping Bombs 3 (not included, it has multiple parts)
+      ❌ Dropping Bombs 3 (not included, it has multiple parts)
   
-      • Dropping Bombs 4 (not included, it has multiple parts)
+      ❌ Dropping Bombs 4 (not included, it has multiple parts)
   
-      • Dropping Bombs 5 (not included, it has multiple parts)
+      ❌ Dropping Bombs 5 (not included, it has multiple parts)
   
       • Dropping Bombs 6 (included, final version)
   
